@@ -64,7 +64,7 @@ app.post("/list-events", async (req, res) => {
   }
 });
 
-// REMEMBER server.listen not app.listen
+
 app.listen(port, () => {
   connection();
   console.log("Listening on port " + port, `http://localhost:${port}`);
